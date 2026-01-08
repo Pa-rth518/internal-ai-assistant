@@ -1,0 +1,3 @@
+python -m venv venv
+venv\Scripts\activate   # Windows
+pip install streamlit langchain chromadb pypdf openai python-dotenv
