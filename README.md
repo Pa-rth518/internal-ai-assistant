@@ -1,10 +1,10 @@
-📘 Internal AI Knowledge Assistant
+## 📘 Internal AI Knowledge Assistant
 RAG-based Document Question Answering System
 
 An AI-powered internal knowledge assistant built using Retrieval-Augmented Generation (RAG).
 Users can upload documents and ask questions that are answered strictly from the document content, ensuring zero hallucination.
 
-🚀 Features
+## 🚀 Features
 
 📄 Upload text-based PDF documents
 
@@ -20,7 +20,7 @@ Users can upload documents and ask questions that are answered strictly from the
 
 💬 Clean and interactive Streamlit UI
 
-🧩 System Architecture
+## 🧩 System Architecture
 
 The application follows a standard RAG (Retrieval-Augmented Generation) workflow:
 
@@ -38,7 +38,16 @@ The LLM generates answers only from retrieved context
 
 📌 Refer to the architecture diagram included in this repository.
 
-🛠️ Tech Stack
+## 🧩 System Architecture
+
+The following diagram illustrates the overall architecture of the application,
+showing how documents are ingested, processed, embedded, and queried using a
+Retrieval-Augmented Generation (RAG) pipeline.
+
+![System Architecture](architecture.png)
+
+
+## 🛠️ Tech Stack
 
 Language: Python
 
@@ -54,7 +63,7 @@ LLM: Groq (Llama 3.1)
 
 Environment Management: python-dotenv
 
-📂 Project Structure
+## 📂 Project Structure
 internal-ai-assistant/
 │
 ├── app.py            # Streamlit UI (entry point)
@@ -65,7 +74,7 @@ internal-ai-assistant/
 ├── architecture.png  # System architecture
 └── README.md
 
-⚙️ How to Run the Project Locally
+## ⚙️ How to Run the Project Locally
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/internal-ai-assistant.git
 cd internal-ai-assistant
@@ -108,16 +117,6 @@ question answering.
 
 
 
-
-## 🧩 System Architecture
-
-The following diagram illustrates the overall architecture of the application,
-showing how documents are ingested, processed, embedded, and queried using a
-Retrieval-Augmented Generation (RAG) pipeline.
-
-![System Architecture](architecture.png)
-
-
 6️⃣ Use the Application
 
 Upload a text-based PDF
@@ -138,7 +137,7 @@ The assistant is designed to:
 
 This makes the system suitable for enterprise and internal use cases.
 
-🔐 Security & Best Practices
+## 🔐 Security & Best Practices
 
 API keys stored using environment variables
 
@@ -148,7 +147,7 @@ Vector DB & temp files not committed
 
 GitHub Push Protection prevents secret leaks
 
-📌 Example Use Cases
+## 📌 Example Use Cases
 
 Internal company knowledge assistant
 
@@ -158,7 +157,7 @@ Educational document analysis
 
 Secure document-based chatbots
 
-🏆 Learning Outcomes
+## 🏆 Learning Outcomes
 
 End-to-end RAG pipeline implementation
 
@@ -170,11 +169,11 @@ Prompt engineering for factual accuracy
 
 Production-style GenAI project setup
 
-📜 License
+## 📜 License
 
 This project is intended for educational and portfolio purposes.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Parth
 GenAI & AI Enthusiast
